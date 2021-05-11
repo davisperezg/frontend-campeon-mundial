@@ -114,10 +114,9 @@ export default function App() {
         <BrowserRouter>
           <UserProvider value={{ userData, setUserData }}>
             {getToken() ? <Navbar /> : ""}
-            <div className="container p-4">
-              <Switch>
-                <VerifyTokenLogin exact path="/login" component={LoginForm} />
-
+            <Switch>
+              <VerifyTokenLogin exact path="/login" component={LoginForm} />
+              <div className="container p-4">
                 <VerifyTokenDashboard exact path="/" component={Principal} />
 
                 <PrivateRoute exact path="/alumnos" component={AlumnosList} />
@@ -244,9 +243,9 @@ export default function App() {
                   path="/notasmanejo/:id"
                   component={NotasFormPM}
                 />
-              </Switch>
-              <ToastContainer />
-            </div>
+              </div>
+            </Switch>
+            <ToastContainer />
           </UserProvider>
         </BrowserRouter>
       </React.StrictMode>

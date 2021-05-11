@@ -1,5 +1,6 @@
-.centerLogin{
-    display:flex;
-    justify-content: center;
-    align-items:center;
+.centerLogin {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
