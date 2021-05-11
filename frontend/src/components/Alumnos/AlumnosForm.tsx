@@ -230,6 +230,7 @@ const AlumnosForm = () => {
         }
         const resRegistro = await alumnoService.createNewAlumnos(alumno);
         localStorage.setItem("usuarioRegistro", resRegistro.data._id);
+
         await alumnoService.updateNroOfUsername();
         setAlumno(initialState);
         hanldeClickCircle2();
@@ -484,7 +485,7 @@ const AlumnosForm = () => {
   if (params.id) {
     return (
       <div className="row">
-        <div className="offset-md-2">
+        {/* <div className="offset-md-2">
           <img
             style={{
               position: "absolute",
@@ -495,8 +496,8 @@ const AlumnosForm = () => {
             }}
             src="https://images-campeon-mundial.s3-sa-east-1.amazonaws.com/Characters/woman-sitting-laptop.svg"
           ></img>
-        </div>
-        <div className="col-md-6 offset-md-4">
+        </div> */}
+        <div className="col-md-8 offset-md-2">
           <div className="card my-auto">
             <GoArrowLeft
               className="offset-md-11 offset-sm-11"
@@ -683,7 +684,7 @@ const AlumnosForm = () => {
 
   return (
     <div className="row">
-      <div className="offset-md-2">
+      {/* <div className="offset-md-2">
         <img
           style={{
             position: "absolute",
@@ -694,8 +695,8 @@ const AlumnosForm = () => {
           }}
           src="https://images-campeon-mundial.s3-sa-east-1.amazonaws.com/Characters/woman-sitting-laptop.svg"
         ></img>
-      </div>
-      <div className="col-md-6 offset-md-4">
+      </div> */}
+      <div className="col-md-8 offset-md-2">
         <div className="card my-auto">
           <GoArrowLeft
             className="offset-md-11 offset-sm-11"
@@ -789,7 +790,7 @@ const AlumnosForm = () => {
                       placeholder="Nombres"
                       onChange={handleInputChange}
                       value={alumno.nombres}
-                      readOnly={true}
+                      readOnly={isReadonly}
                     />
                   </div>
                   <div className="form-row">

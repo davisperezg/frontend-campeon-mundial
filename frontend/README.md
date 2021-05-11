@@ -1,44 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Intranet Campeón Mundial
 
-## Available Scripts
+Sistema intranet. se implementó con el objetivo de optimizar el proceso de matricula para estudiantes de la escuela de manejo campeón mundial.
 
-In the project directory, you can run:
+# Herramientas utilizadas:
 
-### `yarn start`
+- Reactjs
+- Bootstrap
+- Typescript
+- Express
+- Node
+- Mongoose
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Modulos
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Login.
 
-### `yarn test`
+<p align="center">
+  <img src="https://i.ibb.co/FHSFZyF/Login.png" title="Login">
+</p>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Consulta Pagos.
+<p align="center">
+  <img src="https://i.ibb.co/VNGJFQJ/Caja.png" title="Muestra ingresos y egresos de cada sede">
+</p>
 
-### `yarn build`
+- Consulta Alumnos.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+  <img src="https://i.ibb.co/5BLrHk9/Lista-Alumnos.png" title="Alumnos">
+</p>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Consulta Usuarios.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center">
+  <img src="https://i.ibb.co/Ycct20F/Usuarios.png" title="Usuarios">
+</p>
 
-### `yarn eject`
+- Genera fichas de matricula, citas o reservas.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p align="center">
+  <img src="https://i.ibb.co/MRMncM9/Generar-Cita.png" title="Genera citas o reservas">
+</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Mantenimiento de alumnos, usuarios, notas, sedes y tramites.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<p align="center">
+  <img src="https://i.ibb.co/pQjxRmn/Usuarios-Form.png" width="500" title="Formulario Usuario">
+  <img src="https://i.ibb.co/yW9HRcC/Alumno-Form.png" width="500">
+</p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Permisos para el acceso al intranet.
 
-## Learn More
+<p align="center">
+  <img src="https://i.ibb.co/dp1v2yG/PERMISOS.png" title="Activa o desactiva el acceso">
+</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Mostrar contenido audiovisual con react-player.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="center">
+  <img src="https://i.ibb.co/jHspKVT/mostrar-Videos.png" title="Subida de videos para los alumnos">
+</p>
+
+# Pruebas, pdf que genera el sistema.
+
+- https://images-campeon-mundial.s3-sa-east-1.amazonaws.com/TESTPDF/CITA_DAVIS+KEINER+PEREZ+GUZMAN_COD_246.pdf
+- https://images-campeon-mundial.s3-sa-east-1.amazonaws.com/TESTPDF/FICHA_MATRICULA_246_DAVIS+KEINER+PEREZ+GUZMAN+(25).pdf

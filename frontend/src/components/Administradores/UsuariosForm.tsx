@@ -283,7 +283,7 @@ const AdministradoresForm = () => {
   if (params.id) {
     return (
       <div className="row">
-        <div className="offset-md-2">
+        {/* <div className="offset-md-2">
           <img
             style={{
               position: "absolute",
@@ -296,8 +296,8 @@ const AdministradoresForm = () => {
             height="200"
             src="https://images-campeon-mundial.s3-sa-east-1.amazonaws.com/Characters/graph-man.svg"
           ></img>
-        </div>
-        <div className="col-md-6 offset-md-4">
+        </div> */}
+        <div className="col-md-8 offset-md-2">
           <div className="card my-auto">
             <GoArrowLeft
               className="offset-md-11 offset-sm-11"
@@ -459,7 +459,7 @@ const AdministradoresForm = () => {
 
   return (
     <div className="row">
-      <div className="offset-md-2">
+      {/* <div className="offset-md-2">
         <img
           style={{
             position: "absolute",
@@ -472,8 +472,8 @@ const AdministradoresForm = () => {
           height="200"
           src="https://images-campeon-mundial.s3-sa-east-1.amazonaws.com/Characters/graph-man.svg"
         ></img>
-      </div>
-      <div className="col-md-6 offset-md-4">
+      </div> */}
+      <div className="col-md-8 offset-md-2">
         <div className="card my-auto">
           <GoArrowLeft
             className="offset-md-11 offset-sm-11"
@@ -537,7 +537,7 @@ const AdministradoresForm = () => {
                   className="form-control"
                   onChange={handleInputChange}
                   value={admin.nombres}
-                  readOnly={true}
+                  readOnly={isReadonly}
                 />
               </div>
               <div className="form-row">
