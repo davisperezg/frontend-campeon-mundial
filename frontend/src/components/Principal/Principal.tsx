@@ -10,10 +10,13 @@ const Principal = () => {
 
   const history = useHistory();
   const { userData, setUserData }: any = useContext(UserContext);
-  const [isEtapaI, setEtapaI] = useState<any>("");
-  const [isEtapaII, setEtapaII] = useState<any>("");
-  const [isEtapaIII, setEtapaIII] = useState<any>("");
-  const [isEtapaIV, setEtapaIV] = useState<any>("");
+  /**
+   * VERSION SOLO PARA PROFESORES
+   *  const [isEtapaI, setEtapaI] = useState<any>("");
+      const [isEtapaII, setEtapaII] = useState<any>("");
+      const [isEtapaIII, setEtapaIII] = useState<any>("");
+      const [isEtapaIV, setEtapaIV] = useState<any>("");
+   */
   const [isEtapaTeoricos, setIsEtapaTeoricos] = useState<any>("");
   const [isShowRegresar, setShowRegresar] = useState<Boolean>(false);
 
@@ -35,10 +38,10 @@ const Principal = () => {
                   }}
                   onClick={() => {
                     setAvtivateVideos(true);
-                    setEtapaI("");
-                    setEtapaII("");
-                    setEtapaIII("");
-                    setEtapaIV("");
+                    // setEtapaI("");
+                    // setEtapaII("");
+                    // setEtapaIII("");
+                    // setEtapaIV("");
                     setIsEtapaTeoricos("");
                     setShowRegresar(false);
                   }}
@@ -75,7 +78,7 @@ const Principal = () => {
                     Clases Teoría
                   </a>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a
                     style={{ cursor: "pointer", color: "blue" }}
                     onClick={() => {
@@ -122,7 +125,7 @@ const Principal = () => {
                   >
                     Etapa IV
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
 
@@ -156,39 +159,39 @@ const Principal = () => {
         </>
       ) : (
         <>
-          {isEtapaI === "ETAPA I" ? (
+          {/* {isEtapaI === "ETAPA I" ? (
             <>
               <VideoList key={""} setEtapaI={isEtapaI} />
             </>
           ) : (
             <></>
-          )}
+          )} */}
           <>
-            {isEtapaII === "ETAPA II" ? (
+            {/* {isEtapaII === "ETAPA II" ? (
               <>
                 <VideoList key={""} setEtapaII={isEtapaII} />
               </>
             ) : (
               <></>
-            )}
+            )} */}
           </>
           <>
-            {isEtapaIII === "ETAPA III" ? (
+            {/* {isEtapaIII === "ETAPA III" ? (
               <>
                 <VideoList key={""} setEtapaIII={isEtapaIII} />
               </>
             ) : (
               <></>
-            )}
+            )} */}
           </>
           <>
-            {isEtapaIV === "ETAPA IV" ? (
+            {/* {isEtapaIV === "ETAPA IV" ? (
               <>
                 <VideoList key={""} setEtapaIV={isEtapaIV} />
               </>
             ) : (
               <></>
-            )}
+            )} */}
           </>
           <>
             {isEtapaTeoricos === "TEORICOS" ? (

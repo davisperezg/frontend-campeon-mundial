@@ -106,10 +106,10 @@ const VideoForm = () => {
                       //defaultValue={"NOSELECT"}
                     >
                       <option value="TEORICOS">TEORICOS</option>
-                      <option value="ETAPA I">ETAPA I</option>
+                      {/* <option value="ETAPA I">ETAPA I</option>
                       <option value="ETAPA II">ETAPA II</option>
                       <option value="ETAPA III">ETAPA III</option>
-                      <option value="ETAPA IV">ETAPA IV</option>
+                      <option value="ETAPA IV">ETAPA IV</option> */}
                     </select>
                   </div>
                   <div className="form-group">

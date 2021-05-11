@@ -37,7 +37,21 @@ const TramiteList = () => {
       </div>
     );
 
-  if (tramites.length === 0) return <div>No hay tramites publicados.</div>;
+  if (tramites.length === 0)
+    return (
+      <div>
+        No hay tramites publicados.{" "}
+        <a
+          style={{
+            color: "blue",
+            cursor: "pointer",
+          }}
+          onClick={() => history.push("/tramites/registro")}
+        >
+          Registre aquí
+        </a>
+      </div>
+    );
 
   return (
     <>
