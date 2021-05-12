@@ -1,6 +1,6 @@
 # Intranet Campeón Mundial
 
-Sistema intranet. se implementó con el objetivo de optimizar el proceso de matricula para estudiantes de la escuela de manejo campeón mundial.
+Sistema intranet. se implementó con el objetivo de optimizar el proceso de matricula y el registro de pagos por sede.
 
 # Herramientas utilizadas:
 
@@ -10,6 +10,14 @@ Sistema intranet. se implementó con el objetivo de optimizar el proceso de matr
 - Express
 - Node
 - Mongoose
+
+# Variables de entorno
+
+- REACT_APP_API = http://localhost:3000
+
+- REACT_APP_API_RENIEC_PRODUCTION = https://web.kemaytechnology.com/api/consulta/reniec
+
+- REACT_APP_API_RENIEC = https://api.reniec.cloud/dni
 
 # Modulos
 
