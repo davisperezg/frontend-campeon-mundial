@@ -73,4 +73,4 @@ Sistema intranet. se implementó con el objetivo de optimizar el proceso de matr
 
 - https://drive.google.com/file/d/1ApO63q8lexHjKhae6ynAXicjk5hOQmfz/view?usp=sharing
 
-- https://drive.google.com/file/d/1as5I1vDvYRDR4SFKzObOanzyDsbfvEGL/view?usp=sharing
+- https://drive.google.com/file/d/1EqRAr9a7vnmCpc9iM_JVUCafXi1fyw9_/view?usp=sharing
