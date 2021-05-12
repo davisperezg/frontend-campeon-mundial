@@ -162,11 +162,11 @@ const AlumnosForm = () => {
         //let din: number = ref.current.value;
         setAlumno({
           nombres:
-            res.data.nombres +
+            res.data.name +
             " " +
-            res.data.apellido_paterno +
+            res.data.first_name +
             " " +
-            res.data.apellido_materno,
+            res.data.last_name,
           username: await username(),
           password: "",
           dni: alumno.dni,
