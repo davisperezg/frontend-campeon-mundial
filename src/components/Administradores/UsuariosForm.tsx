@@ -86,11 +86,11 @@ const AdministradoresForm = () => {
         //let s di:n umber = ref.current.value ;
         setAdmin({
           nombres:
-            res.data.nombres +
+            res.data.name +
             " " +
-            res.data.apellido_paterno +
+            res.data.first_name +
             " " +
-            res.data.apellido_materno,
+            res.data.last_name,
           username: "",
           dni: admin.dni,
           cellphone: "",
@@ -202,15 +202,8 @@ const AdministradoresForm = () => {
   };
   const getAdmi = async (id: string) => {
     const res: any = await adminService.getAdministrador(id);
-    const {
-      nombres,
-      username,
-      email,
-      dni,
-      cellphone,
-      address,
-      nivel,
-    } = res.data;
+    const { nombres, username, email, dni, cellphone, address, nivel } =
+      res.data;
     console.log(res.data);
     setAdmin({
       nombres,
