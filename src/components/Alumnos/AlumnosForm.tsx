@@ -946,7 +946,7 @@ const AlumnosForm = () => {
                   <button
                     className="btn btn-primary"
                     style={{ width: "100%" }}
-                    disabled={isDisabledGuardar}
+                    //disabled={isDisabledGuardar}
                   >
                     Registrar
                   </button>

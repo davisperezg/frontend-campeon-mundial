@@ -644,7 +644,7 @@ const AdministradoresForm = () => {
               <button
                 className="btn btn-primary"
                 style={{ width: "100%" }}
-                disabled={isDisabledGuardar}
+                //disabled={isDisabledGuardar}
               >
                 Guardar
               </button>
