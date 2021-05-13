@@ -540,7 +540,7 @@ const AdministradoresForm = () => {
                     type="text"
                     name="username"
                     placeholder="Username"
-                    readOnly={isReadonly}
+                    //readOnly={isReadonly}
                     className="form-control"
                     onChange={handleInputChange}
                     value={admin.username}
@@ -555,7 +555,7 @@ const AdministradoresForm = () => {
                     className="form-control"
                     onChange={handleInputChange}
                     //value={alumno.password}
-                    readOnly={isReadonly}
+                    //readOnly={isReadonly}
                   />
                 </div>
               </div>
@@ -567,7 +567,7 @@ const AdministradoresForm = () => {
                   className="form-control"
                   onChange={handleInputChange}
                   value={admin.email}
-                  readOnly={isReadonly}
+                  //readOnly={isReadonly}
                 />
               </div>
               <div className="form-row">
@@ -579,7 +579,7 @@ const AdministradoresForm = () => {
                     className="form-control"
                     onChange={handleInputChange}
                     value={admin.cellphone}
-                    readOnly={isReadonly}
+                    //readOnly={isReadonly}
                   />
                 </div>
                 <div className="form-group col-md-6">
@@ -590,7 +590,7 @@ const AdministradoresForm = () => {
                     className="form-control"
                     onChange={handleInputChange}
                     value={admin.telephone}
-                    readOnly={isReadonly}
+                    //readOnly={isReadonly}
                   />
                 </div>
               </div>
@@ -602,7 +602,7 @@ const AdministradoresForm = () => {
                   className="form-control"
                   onChange={handleInputChange}
                   value={admin.address}
-                  readOnly={isReadonly}
+                  //readOnly={isReadonly}
                 />
               </div>
               <div className="form-group">
@@ -611,7 +611,7 @@ const AdministradoresForm = () => {
                   className="form-control"
                   id="exampleSelect1"
                   name="sedes"
-                  disabled={isReadonly}
+                  //disabled={isReadonly}
                   onChange={handleSelectChange}
                   defaultValue={"NOSELECT"}
                 >
@@ -629,7 +629,7 @@ const AdministradoresForm = () => {
                   className="form-control"
                   id="exampleSelect1"
                   name="roles"
-                  disabled={isReadonly}
+                  //disabled={isReadonly}
                   onChange={handleSelectChange}
                   defaultValue={"NOSELECT"}
                 >

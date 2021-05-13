@@ -799,7 +799,7 @@ const AlumnosForm = () => {
                         type="text"
                         name="username"
                         placeholder="Username"
-                        readOnly={true}
+                        //readOnly={true}
                         className="form-control"
                         onChange={handleInputChange}
                         value={alumno.username}
@@ -815,7 +815,7 @@ const AlumnosForm = () => {
                         className="form-control"
                         onChange={handleInputChange}
                         value={alumno.password}
-                        readOnly={isReadonly}
+                        //readOnly={isReadonly}
                       />
                     </div>
                   </div>
@@ -827,7 +827,7 @@ const AlumnosForm = () => {
                       className="form-control"
                       onChange={handleInputChange}
                       value={alumno.email}
-                      readOnly={isReadonly}
+                      //readOnly={isReadonly}
                     />
                   </div>
                   <div className="form-group">
@@ -838,7 +838,7 @@ const AlumnosForm = () => {
                       className="form-control"
                       onChange={handleInputChange}
                       value={alumno.facebook}
-                      readOnly={isReadonly}
+                      //readOnly={isReadonly}
                     />
                   </div>
                   <div className="form-row">
@@ -850,7 +850,7 @@ const AlumnosForm = () => {
                         className="form-control"
                         onChange={handleInputChange}
                         value={alumno.cellphone}
-                        readOnly={isReadonly}
+                        //readOnly={isReadonly}
                       />
                     </div>
                     <div className="form-group col-md-6">
@@ -861,7 +861,7 @@ const AlumnosForm = () => {
                         className="form-control"
                         onChange={handleInputChange}
                         value={alumno.telephone}
-                        readOnly={isReadonly}
+                        //readOnly={isReadonly}
                       />
                     </div>
                   </div>
@@ -873,7 +873,7 @@ const AlumnosForm = () => {
                       className="form-control"
                       onChange={handleInputChange}
                       value={alumno.address}
-                      readOnly={isReadonly}
+                      //readOnly={isReadonly}
                     />
                   </div>
                   <div className="form-row">
@@ -886,7 +886,7 @@ const AlumnosForm = () => {
                         name="startClasses"
                         className="form-control"
                         onChange={handleInputChange}
-                        readOnly={isReadonly}
+                        //readOnly={isReadonly}
                         value={alumno.startClasses}
                       />
                     </div>
@@ -900,7 +900,7 @@ const AlumnosForm = () => {
                         className="form-control"
                         value={alumno.endClasses}
                         onChange={handleInputChange}
-                        readOnly={isReadonly}
+                        //readOnly={isReadonly}
                       />
                     </div>
                   </div>
@@ -911,7 +911,7 @@ const AlumnosForm = () => {
                       className="form-control"
                       id="exampleSelect1"
                       name="sedes"
-                      disabled={isReadonly}
+                      //disabled={isReadonly}
                       onChange={handleSelectChangeSede}
                       value={String(alumno.sedes)}
                     >
@@ -965,7 +965,7 @@ const AlumnosForm = () => {
                       className="form-control"
                       id="exampleSelect1"
                       name="tramites"
-                      disabled={isReadonly}
+                      //disabled={isReadonly}
                       onChange={handleSelectChangeTramite}
                       defaultValue={"NOSELECT"}
                     >
