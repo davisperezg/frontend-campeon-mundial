@@ -530,7 +530,7 @@ const AdministradoresForm = () => {
                   className="form-control"
                   onChange={handleInputChange}
                   value={admin.nombres}
-                  readOnly={isReadonly}
+                  //readOnly={isReadonly}
                 />
               </div>
               <div className="form-row">

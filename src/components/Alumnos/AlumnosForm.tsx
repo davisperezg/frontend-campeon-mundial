@@ -790,7 +790,7 @@ const AlumnosForm = () => {
                       placeholder="Nombres"
                       onChange={handleInputChange}
                       value={alumno.nombres}
-                      readOnly={isReadonly}
+                      //readOnly={isReadonly}
                     />
                   </div>
                   <div className="form-row">
